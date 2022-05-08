@@ -958,6 +958,7 @@ p {
   border-radius: 4px;
   outline: none;
   transition: border-color 250ms var(--timing-function);
+  cursor: pointer;
 }
 
 .modal-input:focus {
@@ -998,6 +999,7 @@ p {
   resize: none;
   outline: none;
   margin-bottom: 20px;
+  cursor: pointer;
 
   transition: border-color 250ms var(--timing-function);
 }
@@ -1035,6 +1037,7 @@ p {
   color: var(--secondary-text-color);
   transition: background-color 250ms var(--timing-function);
   margin-bottom: 30px;
+  cursor: pointer;
 }
 
 .check-link {
