@@ -389,14 +389,14 @@
           </li>
         </ul>
         </div>
-      </div>
-<!-- ------------------------Подпишитесь на рассылку------------------- -->
-      <div class="subscribe">
+
+        <!-- ------------------------Подпишитесь на рассылку------------------- -->
+          <div class="subscribe">
          <p class="sign-us-title">Подпишитесь на рассылку</p>
          <form class="sign-us-field">
            <input type="email" class="sign-email" name="email" placeholder="E-mail"/>
            <button type="submit" class="sign-button">Подписаться
-         <svg class="icon-sign"  width="24px" height="24px">
+         <svg class="icon-sign">
            <use href="./images/symbol-defs.svg#icon-send"></use>
          </svg>
          </button>
@@ -414,7 +414,7 @@
        </svg>
       </button>
       <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
-      <form class="modal-field-form">
+      <form class="modal-field-form" autocomplete="off">
         <label class="modal-label" for="user-name">Имя</label>
         <div class="modal-field-font">
         <input type="text" class="modal-input" name="user-name" id="user-name">
@@ -440,6 +440,8 @@
         <label class="modal-label" for="user-comment" id="user-comment">Комментарий</label>
         <textarea name="user-comment" class="modal-comment" placeholder="Введите текст" id="user-comment"></textarea>
          
+<!-- -----------------------Форма-------------------------- -->
+
         <div class="modal-conditions">
           <input type="checkbox" class="input-conditions visually-hidden" id="input-conditions" name="policy" value="policy">
           <label for="input-conditions" class="conditions-text">
