@@ -681,6 +681,7 @@ p {
   background-color: transparent;
   outline: none;
   transition: boder-color 250ms var(--timing-function);
+  color: var(--primary-white-color);
 }
 
 .sign-email:focus {
