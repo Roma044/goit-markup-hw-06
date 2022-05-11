@@ -948,7 +948,7 @@ p {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
-  margin-bottom: 30px;
+  margin-bottom: 12px;
 }
 
 .modal-input {
@@ -971,7 +971,7 @@ p {
 }
 
 .modal-field-font {
-  margin-bottom: 28px;
+  margin-bottom: 10px;
 }
 
 .modal-label {
@@ -1030,6 +1030,7 @@ p {
 
 .conditions-text {
   display: flex;
+  justify-content: center;
   align-items: center;
   font-weight: 400;
   font-size: 14px;
