@@ -93,11 +93,11 @@ p {
 
 /* ---------------------Page Header------------------ */
 
-.page-header {
+.header {
   border-bottom: 1px solid #ececec;
 }
 
-.container-header {
+.container__header {
   display: flex;
   align-items: center;
 }
@@ -107,7 +107,7 @@ p {
   align-items: center;
 }
 
-.page-header .contact-list {
+.header .contact-list {
   display: flex;
   margin-left: auto;
 }
